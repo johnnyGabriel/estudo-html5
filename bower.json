@@ -1,0 +1,18 @@
+{
+  "name": "estudo_html5",
+  "version": "0.0.0",
+  "authors": [
+    "JohnnyPestana <johnny_gabriel@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}

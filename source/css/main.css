@@ -1,0 +1,55 @@
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  font-family: 'Slabo 27px', "Times New Roman", serif;
+}
+.pure-g [class*="pure-u"] {
+  box-sizing: border-box;
+}
+figure {
+  width: 100%;
+  margin: 0;
+}
+figure > img {
+  width: inherit;
+}
+hr {
+  border: 0;
+}
+/* bg-color */
+/* font-weight */
+.lighter {
+  font-weight: lighter;
+}
+.normal {
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+}
+/* margin, padding, borders */
+.margin {
+  margin: 15px !important;
+}
+.border-t-light {
+  border-top: 1px solid #e8e8e8;
+}
+@media screen and (min-width: 48em) {
+  .md-padding-1 {
+    padding: 0 1% !important;
+  }
+  .md-padding-5 {
+    padding: 0 5% !important;
+  }
+}
+@media screen and (min-width: 64em) {
+  .lg-padding-1 {
+    padding: 0 1% !important;
+  }
+  .lg-border-r-light {
+    border-right: 1px solid #e8e8e8;
+  }
+}

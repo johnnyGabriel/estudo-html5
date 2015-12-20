@@ -20,7 +20,7 @@ gulp.task('less', function() {
 });
 
 gulp.task('watch', function() {
-	watch(['source/less/**/*.less', 'source/**/*.html'], function() {
+	watch(['source/less/**/*.less', 'source/js/**/*.js', 'source/**/*.html'], function() {
 		gulp.start('less', 'bundle');
 	})
 });

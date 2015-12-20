@@ -6,85 +6,118 @@
         <title>Estudo do HTML5</title>
         <!-- <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'> -->
         <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/combined.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-    	<header>
-    		<!-- <nav>
-				<a href="#">Home</a>
-				<a href="#">Notícias</a>
-				<a href="#">Categorias</a>
-				<a href="#">Informações</a>
-				<a href="#">Contato</a>
-    		</nav> -->
+    	<header class="inline-block pure-u-1 padding bg-red">
+    		<div class="xl-content-width txt-center md-txt-left">
+    			<div id="menuMobIcon" class="menu-mob-icon float-l md-hidden"></div>
+				<h1 class="pure-u-1-3 pure-u-md-1-5 padding inline-block marginless fnt-white">Notícias</h1>
+				<div class="search-icon float-r"></div>
+				<!-- <form action="#" class="float-r pure-u-1 pure-u-md-1-3">
+					<input class="pure-u-1" type="text" id="searchBox">
+				</form> -->
+    		</div>
     	</header>
 
+    	<nav id="menu" class="pure-u-2-3 pure-u-md-1 block bg-white border-b-light">
+			<div class="xl-content-width">
+				<div id="pureMenu" class="pure-menu pure-menu-horizontal padding">
+					<ul class="pure-menu-list">
+						<li class="pure-menu-item"><a href="#" class="pure-menu-link fnt-dark">Home</a></li>
+						<li class="pure-menu-item"><a href="#" class="pure-menu-link fnt-dark">Notícias</a></li>
+						<li class="pure-menu-item"><a href="#" class="pure-menu-link fnt-dark">Categorias</a></li>
+						<li class="pure-menu-item"><a href="#" class="pure-menu-link fnt-dark">Equipe</a></li>
+						<li class="pure-menu-item"><a href="#" class="pure-menu-link fnt-dark">Sobre</a></li>
+					</ul>
+				</div>
+			</div>
+    	</nav>
+
     	<main id="content">
-			<div class="pure-g">
+			<section class="pure-g xl-content-width bg-white">
 				<div class="pure-u-1 pure-u-lg-1-3 md-padding-5 lg-padding-1 lg-border-r-light">
-					<section>
+					<section id="ultimas-noticias">
 						<header>
 							<h2 class="margin">Últimas Notícias</h2>
 						</header>
-						<div>
-							<figure><img class="pure-img" src="images/windows-10-queda-vendas-pc.jpg" alt="Windows 10 gratuito vai causar queda na venda de PCs, aponta relatório"></figure>
-							<h3 class="margin lighter">Windows 10 gratuito vai causar queda na venda de PCs, aponta relatório</h3>
-							<hr class="margin border-t-light">
-						</div>
-						<div>
-							<figure><img class="pure-img" src="images/adobe.jpg" alt=""></figure>
-							<h3 class="margin lighter">Adobe pode lançar Project Rigel na conferência Max, em outubro </h3>
-							<hr class="margin border-t-light">
-						</div>
-						<div>
-							<figure><img class="pure-img" src="images/iphone6s-papeis-parede-animados.jpg" alt="iPhone 6S deve ter papéis de parede 'mais animados' ao estilo Apple Watch"></figure>
-							<h3 class="margin lighter">iPhone 6S deve ter papéis de parede 'mais animados' ao estilo Apple Watch</h3>
-						</div>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/windows-10-queda-vendas-pc.jpg" alt="Windows 10 gratuito vai causar queda na venda de PCs, aponta relatório" title="Windows 10 gratuito vai causar queda na venda de PCs, aponta relatório"></figure>
+								<h3 class="margin lighter">Windows 10 gratuito vai causar queda na venda de PCs, aponta relatório</h3>
+								<hr class="margin border-t-light">
+							</div>
+						</a>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/adobe.jpg" alt="" title="Adobe pode lançar Project Rigel na conferência Max, em outubro"></figure>
+								<h3 class="margin lighter">Adobe pode lançar Project Rigel na conferência Max, em outubro </h3>
+								<hr class="margin border-t-light">
+							</div>
+						</a>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/iphone6s-papeis-parede-animados.jpg" alt="iPhone 6S deve ter papéis de parede 'mais animados' ao estilo Apple Watch" title="iPhone 6S deve ter papéis de parede 'mais animados' ao estilo Apple Watch"></figure>
+								<h3 class="margin lighter">iPhone 6S deve ter papéis de parede 'mais animados' ao estilo Apple Watch</h3>
+							</div>
+						</a>
 					</section>
 				</div>
 				<div class="pure-u-1 pure-u-lg-1-3 md-padding-5 lg-padding-1 lg-border-r-light">
-					<section>
+					<section id="noticias-mais-lidas">
 						<header>
 							<h2 class="margin">Mais Lidas</h2>
 						</header>
-						<div>
-							<figure><img class="pure-img" src="images/associacoes-campanha-impedir-bloqueio-whatsapp.jpg" alt="Associações iniciam campanha para impedir bloqueio do WhatsApp no Brasil"></figure>
-							<h3 class="margin lighter">Associações iniciam campanha para impedir bloqueio do WhatsApp no Brasil</h3>
-							<hr class="margin border-t-light">
-						</div>
-						<div>
-							<figure><img class="pure-img" src="images/moto360-flagrado-versoes-grande-pequena.jpg" alt="Moto 360 é flagrado em fotos nas versões grande e pequena"></figure>
-							<h3 class="margin lighter">Moto 360 é flagrado em fotos nas versões grande e pequena</h3>
-							<hr class="margin border-t-light">
-						</div>
-						<div>
-							<figure><img class="pure-img" src="images/browsers-games-perdendo-espaco-redes-socias.jpg" alt="Browsers e games estão perdendo espaço para vídeos e redes sociais"></figure>
-							<h3 class="margin lighter">Browsers e games estão perdendo espaço para vídeos e redes sociais</h3>
-						</div>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/associacoes-campanha-impedir-bloqueio-whatsapp.jpg" alt="Associações iniciam campanha para impedir bloqueio do WhatsApp no Brasil" title="Associações iniciam campanha para impedir bloqueio do WhatsApp no Brasil"></figure>
+								<h3 class="margin lighter">Associações iniciam campanha para impedir bloqueio do WhatsApp no Brasil</h3>
+								<hr class="margin border-t-light">
+							</div>
+						</a>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/moto360-flagrado-versoes-grande-pequena.jpg" alt="Moto 360 é flagrado em fotos nas versões grande e pequena" title="Moto 360 é flagrado em fotos nas versões grande e pequena"></figure>
+								<h3 class="margin lighter">Moto 360 é flagrado em fotos nas versões grande e pequena</h3>
+								<hr class="margin border-t-light">
+							</div>
+						</a>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/browsers-games-perdendo-espaco-redes-socias.jpg" alt="Browsers e games estão perdendo espaço para vídeos e redes sociais" title="Browsers e games estão perdendo espaço para vídeos e redes sociais"></figure>
+								<h3 class="margin lighter">Browsers e games estão perdendo espaço para vídeos e redes sociais</h3>
+							</div>
+						</a>
 					</section>
 				</div>
 				<div class="pure-u-1 pure-u-lg-1-3 md-padding-5 lg-padding-1">
-					<section>
+					<section id="noticias-mais-comentadas">
 						<header>
 							<h2 class="margin">Mais comentadas</h2>
 						</header>
-						<div>
-							<figure><img class="pure-img" src="images/vacina-para-todos-tipos-gripe.jpg" alt="Vacina para todos os tipos de gripe e que dura a vida inteira é testada"></figure>
-							<h3 class="margin lighter">Vacina para todos os tipos de gripe e que dura a vida inteira é testada</h3>
-							<hr class="margin border-t-light">
-						</div>
-						<div>
-							<figure><img class="pure-img" src="images/megaupload-pede-compra-servidores.jpg" alt="Megaupload pede a EUA que comprem seus servidores para preservar evidências"></figure>
-							<h3 class="margin lighter">Megaupload pede a EUA que comprem seus servidores para preservar evidências</h3>
-							<hr class="margin border-t-light">
-						</div>
-						<div>
-							<figure><img class="pure-img" src="images/hyundai-conceito-carro-gt.jpg" alt="N 2025: Hyundai vai mostrar conceito real de carro do Gran Turismo	z"></figure>
-							<h3 class="margin lighter">N 2025: Hyundai vai mostrar conceito real de carro do Gran Turismo</h3>
-						</div>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/vacina-para-todos-tipos-gripe.jpg" alt="Vacina para todos os tipos de gripe e que dura a vida inteira é testada" title="Vacina para todos os tipos de gripe e que dura a vida inteira é testada"></figure>
+								<h3 class="margin lighter">Vacina para todos os tipos de gripe e que dura a vida inteira é testada</h3>
+								<hr class="margin border-t-light">
+							</div>
+						</a>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/megaupload-pede-compra-servidores.jpg" alt="Megaupload pede a EUA que comprem seus servidores para preservar evidências" title="Megaupload pede a EUA que comprem seus servidores para preservar evidências"></figure>
+								<h3 class="margin lighter">Megaupload pede a EUA que comprem seus servidores para preservar evidências</h3>
+								<hr class="margin border-t-light">
+							</div>
+						</a>
+						<a href="#" class="inline-block pure-u-1">
+							<div>
+								<figure><img class="pure-img" src="images/hyundai-conceito-carro-gt.jpg" alt="N 2025: Hyundai vai mostrar conceito real de carro do Gran Turismo" title="N 2025: Hyundai vai mostrar conceito real de carro do Gran Turismo"></figure>
+								<h3 class="margin lighter">N 2025: Hyundai vai mostrar conceito real de carro do Gran Turismo</h3>
+							</div>
+						</a>
 					</section>
 				</div>
-			</div>
+			</section>
     	</main>
 
     	<footer>
@@ -95,5 +128,6 @@
     		</nav> -->
     	</footer>
 
+		<script src="js/main.js"></script>
     </body>
 </html>
